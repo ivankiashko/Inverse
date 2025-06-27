@@ -1,0 +1,30 @@
+body {
+  background: #222;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+button {
+  background: #ff69b4;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+input, select {
+  margin: 5px;
+}
+.market table, .market th, .market td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.disclaimer {
+  font-size: 12px;
+  color: #ccc;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Пиксельная Криптоигра</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+<h1>Пиксельная Криптоигра</h1>
+<div class="portfolio">
+<h2>Портфель: <span id="usd">1000</span>$</h2>
+<button onclick="donate()">Донат</button>
+<div id="holdings"></div>
+</div>
+<div class="market">
+<h2>Рынок</h2>
+<table id="marketTable">
+<tr><th>Монета</th><th>Цена ($)</th><th>Купить</th></tr>
+</table>
+</div>
+<div class="futures">
+<h2>Фьючерсы</h2>
+<select id="futuresCoin"></select>
+<input type="number" id="futuresAmount" placeholder="Сумма $">
+<input type="number" id="leverage" placeholder="Плечо" value="3">
+<button onclick="openPosition()">Открыть позицию</button>
+<div id="position"></div>
+</div>
+<div class="ai">
+<h2>Советы AI</h2>
+<div id="advice"></div>
+<p class="disclaimer">Прогнозы не являются финансовой рекомендацией.</p>
+</div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
